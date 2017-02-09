@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tabs-container{
+    height: 45px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px 2px;
+}
+.tabs-container .swiper-slide-box{
+//width: 70px;
+    box-sizing: border-box;
+    float: left;
+    height: 45px;
+    padding:0 15px 0;
+}
+.tabs-container .swiper-slide{
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #888;
+    font-size: 17px;
+}
+.tabs-container .swiper-slide.on{
+    font-size: 17px;
+    color: #00aaee;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-bottom: 3px solid #00aaee;
+}
